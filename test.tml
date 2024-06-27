@@ -1,0 +1,22 @@
+
+(* comment 
+   in many 
+   lines *)
+
+// line comment
+
+// let f x y = (x, y) in
+// let g x = f x x in
+
+
+
+// let rec f:int->int->int = fun x -> fun y -> x+y in
+// let rec g:int->int = (f 8) in // let rec eval
+// let y = (g 9) in // App eval
+
+
+// let rec x:int->int->string = fun x-> fun y -> x+y in //pretty works
+// let rec add = fun x->x+1 in //pretty works
+// let x = let y=add (add 6) in y+9 in //pretty works -> albate agar tu Eval, Let v1 bede
+
+()
